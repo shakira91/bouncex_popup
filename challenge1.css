@@ -1,0 +1,105 @@
+/*************************
+ *  your code goes here  *
+ *************************/
+
+ .bxc .bx-creative {
+    width: 900px;
+    height: 900px;
+    background: #fec217;
+    position: relative;
+ }
+
+ .bxc .bx-close-circle {
+    left: 1em;
+    text-align: left;
+ }
+
+ .bxc .bx-step.bx-step-active {
+    position: absolute;
+    top: 115px;
+    left: 0;
+    right: 0;
+    max-width: 590px;
+    margin: 0 auto;
+ }
+
+ .bxc.bx-impress .bx-type {
+     overflow: hidden;
+ }
+
+ .bx-row-subheadline-1 {
+    color: rgb( 0, 0, 102 );
+    font-size: 1.5em;
+    font-weight: 100;
+ }
+
+ .bx-row-headline-1 {
+    color: rgb( 0, 0, 102 );
+    font-size: 3.5em;
+    font-weight: 800;
+    line-height: .3em;
+ }
+
+ .bx-row-headline-2 {
+    color: rgb( 0, 0, 102 );
+    font-size: 5em;
+    font-weight: 800;
+}
+
+.bxc .bx-creative input[type="email"]{
+    width: 85%;
+    border: 1px solid white;
+    -moz-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5411764705882353), 0 6px 11px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5411764705882353), 0 6px 11px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5411764705882353), 0 6px 11px rgba(0, 0, 0, 0.25);
+}
+
+.bxc .bx-creative input[type="email"]::placeholder{
+    text-align: center;
+    opacity: 0.5;
+}
+
+.bx-row-submit span {
+    color: white;
+    font-weight: 800;
+    font-size: 2em;
+    padding: 15px 20px;
+    border-right: 3px solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 100%, 0 0, from(#e4e4e4), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image-right: 
+      -webkit-linear-gradient(to top, #e4e4e4, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(to top, #e4e4e4, rgba(0, 0, 0, 0)) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(to top, #e4e4e4, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, #e4e4e4, rgba(0, 0, 0, 0)) 1 100%;
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);  
+}
+
+.bxc .bx-creative input[type="submit"] {
+    width: 72%;
+    font-size: 2em;
+    font-weight: 100;
+    border: none;
+    margin-left: -5px;
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);      
+}
+
+@media screen and (max-width: 600px) {
+    .bx-row-subheadline-1 {
+        font-size: 1em;
+    }
+    .bx-row-headline-1 {
+        font-size: 2em;
+    }
+    .bx-row-headline-2 {
+        font-size: 3em;
+    }
+    
+  }
