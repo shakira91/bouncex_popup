@@ -4,7 +4,7 @@
 
  .bxc .bx-creative {
     width: 900px;
-    height: 540px;
+    height: 600px;
     background: #fec217;
     position: relative;
  }
@@ -77,7 +77,10 @@
       linear-gradient(to top, #e4e4e4, rgba(0, 0, 0, 0)) 1 100%;
     background-image: -moz-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);  
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
+    -moz-box-shadow: 0 6px 11px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 6px 11px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 6px 11px rgba(0, 0, 0, 0.5);     
 }
 
 .bxc .bx-creative input[type="submit"] {
@@ -88,7 +91,10 @@
     margin-left: -5px;
     background-image: -moz-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);      
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%); 
+    -moz-box-shadow: 0 6px 11px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 6px 11px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 6px 11px rgba(0, 0, 0, 0.5);     
 }
 
 @media screen and (max-width: 600px) {
